@@ -37,7 +37,7 @@ options.addEventListener("click", function () {
   let currentPageUrl = window.location.pathname;
   let pathArray = currentPageUrl.split("/");
   if (pathArray.length === 3 && pathArray[1] === "GBA2.0") {
-    window.location = "/GBA2.0/main/options" // gh pages
+    window.location = "/gba2.0/main/options" // gh pages
   } else {
     window.location = optionsLink;
   }
