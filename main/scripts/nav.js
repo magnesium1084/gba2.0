@@ -33,7 +33,7 @@ back.addEventListener("click", function () {
 });
 
 options.addEventListener("click", function () {
-  window.location.href = "/GBA2.0/main/options/";
+  window.location.href = "/gba2.0/main/options/";
 });
 
 /* Theme handling */
