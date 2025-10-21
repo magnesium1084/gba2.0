@@ -23,7 +23,7 @@ function findHome() {
 }
 
 var homeLink = findHome();
-var optionsLink = findHome() + "gba2.0/main/options";
+var optionsLink = findHome() + "/main/options";
 
 home.addEventListener("click", function () {
   window.location = homeLink;
