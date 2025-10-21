@@ -23,7 +23,6 @@ function findHome() {
 }
 
 var homeLink = findHome();
-var optionsLink = findHome() + "/main/options";
 
 home.addEventListener("click", function () {
   window.location = homeLink;
@@ -34,8 +33,7 @@ back.addEventListener("click", function () {
 });
 
 options.addEventListener("click", function () {
-  const base = window.location.pathname.includes("/GBA2.0") ? "/GBA2.0" : "";
-  window.location = `${base}/main/options`;
+  window.location.href = "/GBA2.0/main/options/";
 });
 
 /* Theme handling */
